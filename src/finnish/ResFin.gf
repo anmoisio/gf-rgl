@@ -206,7 +206,7 @@ oper
     } ;
 
 param
-  SType = SDecl | SQuest ;
+  SType = SDecl | SQuest | SDeclOSV ;
 
 --2 For $Relative$
 

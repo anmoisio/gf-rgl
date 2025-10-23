@@ -5,7 +5,8 @@ abstract Question = Cat ** {
 -- A question can be formed from a clause ('yes-no question') or
 -- with an interrogative.
 
-  fun
+--   fun
+  data
     QuestCl     : Cl -> QCl ;            -- does John walk
     QuestVP     : IP -> VP -> QCl ;      -- who walks
     QuestSlash  : IP -> ClSlash -> QCl ; -- whom does John love

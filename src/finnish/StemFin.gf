@@ -363,6 +363,7 @@ oper
          in
          table {
            SDecl  => c.subj ++ c.fin ++ c.inf ++ c.compl ++ c.adv ++ c.ext ;
+           SDeclOSV  => c.compl ++ c.subj ++ c.fin ++ c.inf ++ c.adv ++ c.ext ;
            SQuest => c.fin ++ BIND ++ questPart c.h ++ c.subj ++ c.inf ++ c.compl ++ c.adv ++ c.ext
            }
       } ;
@@ -371,6 +372,7 @@ oper
       s = \\t,a,b => let c = (mkClausePlus sub agr vp).s ! t ! a ! b in
          table {
            SDecl  => c.subj ++ c.fin ++ c.inf ++ c.compl ++ c.adv ++ c.ext ;
+           SDeclOSV  => c.compl ++ c.subj ++ c.fin ++ c.inf ++ c.adv ++ c.ext ;
            SQuest => c.fin ++ BIND ++ questPart c.h ++ c.subj ++ c.inf ++ c.compl ++ c.adv ++ c.ext
            }
       } ;

@@ -11,7 +11,8 @@ abstract Noun = Cat ** {
 -- - pronouns
 --
 --
-  fun
+--   fun
+data
     DetCN   : Det -> CN -> NP ;   -- the man
     UsePN   : PN -> NP ;          -- John
     UsePron : Pron -> NP ;        -- he
@@ -56,7 +57,7 @@ abstract Noun = Cat ** {
 
 -- $Card$ consists of either digits or numeral words.
 
-  data
+--   data
     NumDigits  : Digits  -> Card ;  -- 51
     NumDecimal : Decimal -> Card ;  -- 3.14, -1, etc
     NumNumeral : Numeral -> Card ;  -- fifty-one
@@ -65,7 +66,7 @@ abstract Noun = Cat ** {
 
 -- A $Card$ can  be modified by certain adverbs.
 
-  fun
+--   fun
     AdNum : AdN -> Card -> Card ;   -- almost 51
 
 -- An $Ord$ consists of either digits or numeral words.

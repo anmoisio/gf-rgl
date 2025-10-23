@@ -8,7 +8,8 @@
 
 abstract Structural = Cat ** {
 
-  fun
+--   fun
+data
 
 -- This is an alphabetical list of structural words
 

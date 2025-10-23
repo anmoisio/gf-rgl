@@ -98,7 +98,8 @@ abstract Extend = Cat ** {
 
   -- fronted/focal constructions, only for main clauses
 
-  fun
+--   fun
+  data
     FocusObj : NP  -> SSlash  -> Utt ;   -- her I love
     FocusAdv : Adv -> S       -> Utt ;   -- today I will sleep
     FocusAdV : AdV -> S       -> Utt ;   -- never will I sleep

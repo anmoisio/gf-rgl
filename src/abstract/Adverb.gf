@@ -2,7 +2,8 @@
 
 abstract Adverb = Cat ** {
 
-  fun
+--   fun
+data
 
 -- The two main ways of forming adverbs are from adjectives and by
 -- prepositions from noun phrases.

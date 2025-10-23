@@ -10,7 +10,8 @@
 
 abstract Tense = Common ** {
 
-  fun
+--   fun
+data
     TTAnt : Tense -> Ant -> Temp ;  -- [combination of tense and anteriority, e.g. past anterior]
 
     PPos : Pol ;           -- I sleep  [positive polarity]
