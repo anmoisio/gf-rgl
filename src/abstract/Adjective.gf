@@ -2,7 +2,8 @@
 
 abstract Adjective = Cat ** {
 
-  fun
+--   fun
+  data
 
 -- The principal ways of forming an adjectival phrase are
 -- positive, comparative, relational, reflexive-relational, and

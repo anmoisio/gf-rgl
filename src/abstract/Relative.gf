@@ -2,7 +2,8 @@
 
 abstract Relative = Cat ** {
 
-  fun
+--   fun
+  data
 
 -- The simplest way to form a relative clause is from a clause by
 -- a pronoun similar to "such that".
